@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    background-color: black;
+}
+
+
+.img-v{
+    background: url(1\ \(1\).svg);
+    background-position: center/cover;
+    background: no-repeat;
+    height: 575px;
+}
+.grey{
+    display: flex;
+flex-wrap: wrap;
+align-items: center;
+    background-color: grey;
+}
+.display{
+   
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+h1{
+    text-align: center;
+    background-color: grey;
+}
+
+.display:hover{
+    background-color: #F57520;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+   
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
